@@ -107,7 +107,7 @@ impl ShapeBuidler {
         &self,
         from: DVec3,
         to: DVec3,
-        stroke: impl Into<PathStroke>,
+        stroke: impl Into<Stroke>,
     ) -> Mesh {
         let mut points: [Pos2; 2] = Default::default();
 
